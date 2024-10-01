@@ -1,0 +1,150 @@
+/* Receitas */
+
+body,
+h1,
+p,
+h2,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estrutura */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-header {
+  flex-direction: row;
+}
+
+.menu {
+  padding: 15px 10px;
+  background-color: #0f0044;
+}
+
+.main-list {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-link {
+  color: #0ff80f;
+  font-style: normal;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.list-link:hover {
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.list-link.-home {
+  font-weight: bold;
+}
+
+.list-link.-receita {
+  font-weight: bold;
+}
+
+.list-link.-cadastro {
+  font-weight: bold;
+}
+
+.main {
+  height: 85vh; /* Aumenta a altura do main para 100% da altura da viewport */
+  background-color: #fff6a3;
+}
+
+.main-text.-receita {
+  font-size: 16px;
+  text-align: left;
+}
+
+.main-section.-receitas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-receitas-card {
+  background-color: #0f0044;
+  width: 300px;
+  height: 550px;
+  margin: 10px;
+  color: #0ff80f;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-receita {
+  margin-bottom: 0px; /* Diminui o espaço entre os itens da lista */
+}
+
+.lista-receita-item {
+  margin-left: 30px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.linha {
+  display: block;
+}
+
+.foto-receita {
+  width: 300px;
+  height: 150px;
+  padding-bottom: 8px;
+}
+
+/* Footer */
+
+.main-footer {
+  padding: 5px 0;
+  background-color: #0f0044;
+  color: #0ff80f;
+  text-align: center;
+  position: bottom;
+}
+
+.main-text.-footer {
+  font-size: 15px;
+  padding: 10px;
+  color: #0ff80f;
+} 
+
+
+@media screen and (max-width: 900px) {
+  .main-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .topo {
+    display: inline;
+  }
+  .logo {
+    margin-left: 40%;
+  }
+}
