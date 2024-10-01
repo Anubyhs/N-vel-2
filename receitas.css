@@ -10,7 +10,7 @@ ul {
   padding: 0;
 }
 
-/* Estrutura */
+
 
 body {
   display: flex;
@@ -64,7 +64,7 @@ body {
 }
 
 .main {
-  height: 85vh; /* Aumenta a altura do main para 100% da altura da viewport */
+  height: 85vh;
   background-color: #fff6a3;
 }
 
@@ -99,7 +99,7 @@ body {
 }
 
 .lista-receita {
-  margin-bottom: 0px; /* Diminui o espaço entre os itens da lista */
+  margin-bottom: 0px;
 }
 
 .lista-receita-item {
@@ -118,7 +118,7 @@ body {
   padding-bottom: 8px;
 }
 
-/* Footer */
+
 
 .main-footer {
   padding: 5px 0;
