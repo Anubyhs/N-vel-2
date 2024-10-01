@@ -8,11 +8,11 @@ ul {
 }
 
 h1, p {
-  color: #000; /* Cor preta */
-  text-shadow: 0px 0px 5px rgba(0, 255, 127, 0.8); /* Contorno verde visível */
+  color: #000;
+  text-shadow: 0px 0px 5px rgba(0, 255, 127, 0.8);
 }
 
-/* Estrutura */
+
 
 body {
   display: flex;
@@ -78,7 +78,7 @@ body {
   margin: 50px;
 }
 
-/* Títulos e texto */
+
 
 .main-title {
   font-size: 34px;
@@ -101,7 +101,7 @@ body {
   text-shadow: 0 0 2px 4px #0ff80f;
 }
 
-/* Home */
+
 
 .topo {
   display: flex;
@@ -114,7 +114,7 @@ body {
   margin-right: 10px;
 }
 
-/* Footer */
+
 
 .main-footer {
   padding: 5px 0;
